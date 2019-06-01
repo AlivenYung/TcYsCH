@@ -12,4 +12,7 @@ $(function(){
 	});
 
 });
+function TopScroll(){
+	window.scrollTo(0,0)
+}
 

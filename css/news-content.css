@@ -1,0 +1,39 @@
+#content *{
+	letter-spacing: 2px;
+}
+#content h4{
+	color: rgb(0,100,230);
+	margin: 18px 0px;
+}
+#content h5{
+	color: rgb(0,100,230);
+	font-size: 16px;
+	border-bottom: 1px solid black;
+	padding-bottom: 18px;
+	margin-bottom: 24px;
+}
+#content h5 img{
+	width: 32px;
+	margin-left: 12px;
+}
+#text{
+	width: 75%;
+}
+#text > p{
+	line-height: 28px;
+	margin-bottom: 24px;
+}
+.information{
+	margin-top: 4em;
+	margin-bottom: 4em;
+}
+.information p, .contact p{
+	line-height: 28px;
+	margin-bottom: 0rem;
+}
+.contact .caveat{
+	margin-bottom: 24px;
+}
+.contact{
+	margin-bottom: 4em;
+}

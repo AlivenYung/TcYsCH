@@ -1,0 +1,39 @@
+#content{
+	background-image: url(../image/news/bg.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+	background-size: 80% contain;
+}
+#content .tab-pane > div{
+	width: 70%;
+	margin-bottom: 50px;
+}
+#content .tab-pane > div label{
+	background-color: rgba(0,100,230,0.65);
+	color: white;
+	border-radius: 3px;
+	padding: .5rem;
+	letter-spacing: 2px;
+}
+#content .tab-pane > div h4{
+	letter-spacing: 2px;
+	color: rgb(0,100,230);
+	margin: 18px 0px;
+}
+#content .tab-pane > div p{
+	letter-spacing: 2px;
+}
+#content .tab-pane > div p a{
+	color: rgb(0,100,230);
+	cursor: pointer;
+	margin-left: 16px;
+}
+#content > #page{
+	width: 100%;
+}
+#page .nav-pills{
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
