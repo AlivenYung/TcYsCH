@@ -18,7 +18,8 @@
 	transition: all .5s ease-in-out;
 	margin-top: 64.8px;
 }
-.nav-down>a{
+.nav-down > a{
+
 	cursor: pointer;
 	color: rgba(0,0,0,0.6);
 	background-color: rgba(0,100,230,0.1);
@@ -30,20 +31,27 @@
 	border-left: 0px;
 	transition: all .1s ease-in-out;
 }
-.nav-down > .active,.nav-down > div:hover{
+.nav-pills .nav-link{
+	border-radius: 0px;
+}
+.nav-pills .nav-link.active{
+	color: rgb(0,100,230);
+	background-color: rgba(0,100,230,0.1);
+}
+.nav-down > .active,.nav-down > a:hover{
 	border-left: 2px solid rgb(0,100,230);
 	color: rgb(0,100,230);
 }
-#content > .right > h4{
+#content > .right h4{
 	letter-spacing: 24px;
 	text-align: center;
 	margin-bottom: 36px;
 	color: rgba(0,0,0,0.6);
 }
-#content > .right > h4 > img{
+#content > .right h4 > img{
 	height: 16px;
 }
-#content > .right > h4 > img:nth-child(1){
+#content > .right h4 > img:nth-child(1){
 	margin-right: 24px;
 }
 #content > .right .text{
@@ -54,4 +62,35 @@
 	letter-spacing: 2px;
 	color: rgba(0,0,0,0.6);
 	line-height: 32px;
+}
+
+#v-pills-mom p{
+	padding-left: 58px;
+	position: relative;
+	margin-bottom: 32px;
+}
+#v-pills-mom p img{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#v-pills-boss > div{
+	display: -webkit-flex;
+	display: flex;
+}
+#v-pills-boss .img{
+	-webkit-flex: none;
+	flex:none;
+	width: 300px;
+}
+#content > .right > #v-pills-boss .text{
+	-webkit-flex: 1;
+	flex: 1;
+	margin-top: 0px;
+}
+#v-pills-boss .img img{
+	width: 100%;
+}
+#v-pills-boss .text p{
+	padding-left: 50px;
 }
