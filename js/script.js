@@ -1,3 +1,4 @@
+//loading
 $(function(){
 	$("#Logo01").fadeIn(1000);
 	$("#Load").delay(4000).fadeOut(1000).queue(function (next) { 
@@ -11,3 +12,4 @@ $(function(){
 	});
 
 });
+

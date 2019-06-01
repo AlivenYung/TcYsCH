@@ -1,11 +1,3 @@
-/*default*/
-@font-face {
-	font-family: GenWanMinTW;
-	src: url(../font/GenWanMinTW-Medium.ttf);
-}
-body,*{
-	font-family: GenWanMinTW, serif;
-}
 html,body{
 	width: 100%;
 	height: 100%;

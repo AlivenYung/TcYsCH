@@ -1,0 +1,7 @@
+@font-face {
+	font-family: GenWanMinTW;
+	src: url(../font/GenWanMinTW-SemiBold.ttf);
+}
+body,*{
+	font-family: GenWanMinTW, serif;
+}

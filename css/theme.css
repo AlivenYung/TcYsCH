@@ -1,0 +1,70 @@
+.navbar{
+	background: white;
+	padding: 5px 100px;
+	box-shadow: 0px 1px 3px gray;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 4rem;
+	padding-left: 4rem;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin: .5rem 0rem;
+}
+.navbar-nav li a{
+	font-size: 18px;
+	border-left: 2px solid rgba(0,0,0,0.4);
+	letter-spacing: 5px;
+}
+.navbar-nav li:nth-child(1) a{
+	border-left: 0px;
+}
+.navbar-expand-lg .navbar-nav li:nth-child(5) .nav-link{
+	padding-right: 0rem;
+}
+.navbar ul .nav-item.active > .nav-link{
+	color: rgb(0,100,230);
+}
+#title{
+	background-color: rgb(0,100,230);
+	height: 200px;
+	padding-left:100px;
+	margin-top: 80px;
+
+}
+#title img{
+	float: right;
+	height: 100%;
+}
+#title *{
+	color: white;
+	letter-spacing: 2px;
+}
+#title h2{
+	letter-spacing: 10px;
+	padding-top: 65px;
+}
+#title h6{
+	font-size: .9rem;
+}
+#content{
+	padding: 65px 100px;
+	min-height: 800px;
+}
+footer{
+	background-color: rgb(129,178,240);
+	color: white;
+	font-size: 14px;
+	padding-top: 1rem;
+	letter-spacing: 2px;
+	text-align: center;
+	position: relative;
+}
+footer #allright{
+	background-color: rgb(0,100,230);
+	padding: .5rem;
+}
+footer #TopIcon{
+	position: absolute;
+	top: 30px;
+	right: 20px;
+}
