@@ -1,0 +1,110 @@
+#content > #page{
+	width: 100%;
+}
+#page .nav-pills{
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+#major{
+	background-image: url(../image/activity/major-bg.png);
+	min-height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 70px 0px;
+	display: -webkit-flex;
+	display: flex;
+}
+#major > div{
+	-webkit-flex: 1;
+	flex: 1;
+	padding:0px 70px;
+	border-right: 2px solid rgba(255,255,255,0.5);
+}
+#major > div:last-child{
+	border-right: 0px;
+}
+#major > div *{
+	color: white;
+	letter-spacing: 2px;
+}
+#major > div h4{
+	margin-bottom: 2rem;
+}
+#major > div h4 img{
+	margin-left: .5rem;
+	height: 12px;
+}
+#major > div h5 img{
+	height: 1.5rem;
+	margin-right: .5rem;
+}
+#major > div h5{
+	margin-bottom: 1.5rem;
+}
+#major > div p{
+	margin-bottom: 0px;
+}
+.info{
+	margin-bottom: 50px;
+}
+.info h6,.info h5{
+	color: rgb(0,100,230);
+}
+.info h6 img{
+	height: 9px;
+	margin: 0rem .5rem;
+}
+.info h5{
+	margin-bottom: 1rem;
+}
+
+#outbox{
+    -moz-column-count: 2;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 10px;
+    column-count: 2;
+    column-gap: 10px;
+    width:100%;
+    margin:0 auto;
+}
+.content_box{
+    width:100%;
+    display: inline-block;
+    font-size:12px;
+    padding: 10px;
+    margin: 5px 5px 5px 0;
+    overflow:hidden;
+    font-size:15px;
+    line-height: 1.5em;
+    letter-spacing: 1pt;
+    color:#353535;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+}
+.content_box > img{
+	width: 100%;
+}
+.content_box p{
+	padding: .2rem .5rem;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	bottom: 0px;
+	left: 0px;
+	width: calc(100% - 20px);
+	position: absolute;
+	text-align: right;
+	color: white;
+	background-color: rgba(0,100,230,0.65);
+}
+.content_box p img{
+	height: 14px;
+	margin-right: .5rem;
+}
