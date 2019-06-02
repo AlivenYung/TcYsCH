@@ -50,9 +50,11 @@
 	padding: 65px 100px;
 	min-height: 800px;
 }
+footer *{
+	color: white;
+}
 footer{
 	background-color: rgb(129,178,240);
-	color: white;
 	font-size: 14px;
 	padding-top: 1rem;
 	letter-spacing: 2px;
