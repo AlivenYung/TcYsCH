@@ -14,6 +14,7 @@ $(function(){
 	//url
 	var HashTag = location.hash.substr(1);
 	$(".nav-pills #v-pills-"+HashTag+"-tab").click();
+	$(".activity .img-t a").css("line-height",$(".activity .img-t a").width()+"px");
 });
 function TopScroll(){
 	window.scrollTo(0,0)
