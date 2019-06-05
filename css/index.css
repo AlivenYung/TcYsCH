@@ -25,7 +25,7 @@ body{
 .navbar-nav li a{
 	font-size: 18px;
 	border-left: 2px solid white;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
 }
 .navbar-nav li:nth-child(1) a{
 	border-left: 0px;
@@ -47,6 +47,7 @@ li.nav-item:hover > .nav-down{
 	height: 300px;
 }
 li.nav-item > .nav-down > div{
+	letter-spacing: 0.5px;
 	color: rgb(0,100,230);
 	background-color: rgba(255,255,255,0.3);
 	width: 100%;

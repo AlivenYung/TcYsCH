@@ -59,6 +59,10 @@
 }
 .info h5{
 	margin-bottom: 1rem;
+	letter-spacing: 1.5px;
+}
+.info p{
+	letter-spacing: 1px;
 }
 
 #outbox{

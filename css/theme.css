@@ -70,3 +70,9 @@ footer #TopIcon{
 	top: 30px;
 	right: 20px;
 }
+footer p{
+	margin-bottom: .5rem;
+}
+footer p img{
+	margin-bottom: 1rem;
+}

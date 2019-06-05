@@ -33,6 +33,7 @@
 }
 .nav-pills .nav-link{
 	border-radius: 0px;
+	letter-spacing: 0.5px;
 }
 .nav-pills .nav-link.active{
 	color: rgb(0,100,230);
